@@ -2,7 +2,7 @@ library(ScottKnottESD)
 library(dplyr)
 
 ORGS = c('Qt','Openstack','Eclipse','Libreoffice','Android','All')
-DATA_PATH = 'C:/Users/Moataz/Desktop/work/EMSE2020_replication package/RQ1_'
+DATA_PATH = '../results/RQ1_results'
 ML_ALGO_LIST = c('AdaBoost', 'DecisionTree', 'Mean', 'Median','ExtraTrees', 'RandomForest', 'XGBOOST','RandomGuess')
 METRICS = c('Test.MAE','Test.MAPE','Test.SAE')
 
