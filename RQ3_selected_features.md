@@ -1,31 +1,28 @@
 For the sake of the replicability, we provide the list of selected features per project for RQ3.
 
 **Openstack**
-- created_weekday_owner_tz
-- created_hours_utc
-- created_hours_owner_tz
-- betweenness_centrality
-- core_number
-- insertions
-- deletions
-- num_files_type
-- sum_complexity
-- num_binary_files
-- subject_length
-- msg_word_count
-- is_non_fonctional
-- is_refactoring
-- is_corrective
-- is_preventive
-- has_feature_addition
-- is_merge
-- num_files_changes_sum
-- num_owner_open_changes_30_days
-- owner_age
-- owner_changes_messages_avg
-- num_prior_owner_project_changes
-- num_project_open_changes_30_days
-- revrs_abandoned_changes_sum_30_days
+ - created_weekday_owner_tz
+ - created_hours_utc
+ - created_hours_owner_tz
+ - betweenness_centrality
+ - core_number','insertions','deletions','num_files_type
+ - sum_complexity
+ - num_binary_files
+ - subject_length
+ - msg_word_count
+ - is_non_fonctional
+ - is_refactoring
+ - is_corrective
+ - is_preventive
+ - has_feature_addition
+ - is_merge
+ - num_files_changes
+ - num_owner_open_changes_recent
+ - owner_age
+ - owner_changes_messages_avg
+ - num_prior_owner_project_changes
+ - num_project_open_changes_recent
+ - revrs_abandoned_changes_recent
 
 **Android**
 - created_weekday_owner_tz
@@ -46,17 +43,17 @@ For the sake of the replicability, we provide the list of selected features per 
 - is_merge
 - files_changes_duration_avg
 - files_revisions_duration_avg
-- num_file_changes_for_revrs_avg_30_days
+- num_file_changes_for_revrs_avg_recent
 - owner_age
-- num_owner_open_changes_30_days
+- num_owner_open_changes_recent
 - owner_changes_messages_avg
 - owner_time_between_message_avg
 - owner_merged_ratio
 - prior_owner_project_changes_ratio
 - num_open_changes_30_days
 - num_prior_project_changes
-- revrs_abandoned_changes_avg_30_days
-- revrs_open_changes_sum_30_days
+- revrs_abandoned_changes_avg_recent
+- revrs_open_changes_sum_recent
 
 **Qt**
 - created_weekday_owner_tz
@@ -77,20 +74,20 @@ For the sake of the replicability, we provide the list of selected features per 
 - is_preventive
 - has_feature_addition
 - is_merge
-- num_file_changes_for_revrs_max_30_days
+- num_file_changes_for_revrs_max_recent
 - files_changes_duration_avg
 - files_revisions_duration_avg
 - files_num_recent_branch_changes
-- owner_revrs_commons_msgs_avg_30_days
-- num_owner_open_changes_30_days
+- owner_revrs_commons_msgs_avg_recent
+- num_owner_open_changes_recent
 - owner_changes_messages_avg
 - owner_time_between_message_avg
 - owner_merged_ratio
 - prior_owner_project_changes_ratio
 - num_prior_project_changes
-- num_open_changes_30_days
-- revrs_abandoned_changes_avg_30_days
-- revrs_open_changes_avg_30_days
+- num_open_changes_recent
+- revrs_abandoned_changes_avg_recent
+- revrs_open_changes_avg_recent
 
 **Eclipse**
 - created_weekday_owner_tz
@@ -111,12 +108,12 @@ For the sake of the replicability, we provide the list of selected features per 
 - is_preventive
 - has_feature_addition
 - is_merge
-- num_file_changes_for_revrs_max_30_days
+- num_file_changes_for_revrs_max_recent
 - files_changes_duration_avg
 - files_revisions_duration_avg
 - files_num_recent_branch_changes
 - owner_age
-- num_owner_open_changes_30_days
+- num_owner_open_changes_recent
 - prior_owner_rate
 - owner_changes_messages_avg
 - owner_time_between_message_avg
@@ -124,9 +121,9 @@ For the sake of the replicability, we provide the list of selected features per 
 - num_prior_owner_project_changes
 - prior_owner_project_changes_ratio
 - num_prior_changes
-- num_project_open_changes_30_days
-- num_open_changes_30_days
-- revrs_open_changes_sum_30_days
+- num_project_open_changes_recent
+- num_open_changes_recent
+- revrs_open_changes_sum_recent
 
 **Libreoffice**
 - created_weekday_utc
@@ -147,14 +144,14 @@ For the sake of the replicability, we provide the list of selected features per 
 - is_preventive
 - has_feature_addition
 - is_merge
-- num_file_changes_for_revrs_avg_30_days
+- num_file_changes_for_revrs_avg_recent
 - files_changes_duration_avg
 - files_revisions_duration_avg
 - files_num_recent_branch_changes
-- num_owner_open_changes_30_days
-- revrs_abandoned_changes_avg_30_days
+- num_owner_open_changes_recent
+- revrs_abandoned_changes_avg_recent
 - owner_changes_messages_avg
 - owner_time_between_message_avg
 - owner_merged_ratio
-- num_open_changes_30_days
-- revrs_open_changes_sum_30_days
+- num_open_changes_recent
+- revrs_open_changes_sum_recent
